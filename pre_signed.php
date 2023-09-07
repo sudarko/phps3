@@ -21,9 +21,9 @@ $s3 = new Aws\S3\S3Client([
 
     "credentials" => [
 
-        "key" => "ThF63zX52GteTSwj1SSEHjv1dyvTJ7JmzLZQwxlhgl6VFcZ6yVWW4lhVnGI96f7d",
+        "key" => "key",
 
-        "secret" => "BrOSu0rBKUqJ0a0sUk7zfCKuzFDGQBJV55yUrMERSKENEipe71HqQjR5M2ESw0cU",
+        "secret" => "pw",
 
     ],
 
