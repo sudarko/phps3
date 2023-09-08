@@ -43,6 +43,7 @@ $command = $s3->getCommand('GetObject', [
         ]);
 
 // Create a pre-signed URL for a request with duration of 10 miniutes
+$request = $s3->createPresignedRequest($command, '+10 minutes');
 $presignedRequest = $s3->createPresignedRequest($command, '+10 minutes');
 
 // Get the actual presigned-url
