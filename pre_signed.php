@@ -35,6 +35,7 @@ $s3 = new Aws\S3\S3Client([
 
 $key = "EnamineStore.pdf";
 #$key = "kepala.jpg";
+## update
 
 // Get a command object from the client
 $command = $s3->getCommand('GetObject', [
