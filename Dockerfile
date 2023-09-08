@@ -5,3 +5,4 @@ RUN wget https://docs.aws.amazon.com/aws-sdk-php/v3/download/aws.zip
 RUN unzip aws.zip -d /root/aws_sdk_php
 #RUN rm aws.zip -f
 COPY pre_signed.php /root/
+COPY S3SignatureV4.php /root/aws_sdk_php/Aws/Signature/
